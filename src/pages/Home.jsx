@@ -78,7 +78,7 @@ const Home = () => {
 
 
     {/*About-Us Section */}
-    <div className='w-11/12 flex flex-col mx-auto items-start justify-start'>
+    <div className='w-11/12 flex flex-col mx-auto items-start justify-start' id="About">
         <div className=' flex w-full items-center justify-center mt-10'>
             <h1 className='text-yellow-50 font-face-sm font-semibold text-[3rem] space-x-2 mx-auto'>About The Event</h1>
         </div>
@@ -107,7 +107,7 @@ const Home = () => {
 
     {/* rulebook */}
 
-    <div className='w-11/12 flex flex-col mx-auto mt-12 '>
+    <div className='w-11/12 flex flex-col mx-auto mt-12 ' id="RuleBook">
     <div className=' flex   flex-row items-center justify-center w-full'>
             <h1 className='text-yellow-50 font-face-sm font-semibold text-[3rem] space-x-2 text-center mx-auto'>RuleBook</h1>
         </div>
@@ -129,7 +129,7 @@ const Home = () => {
     
 
     {/* sponsors */}
-    <div className='flex items-center justify-center flex-col'>
+    <div className='flex items-center justify-center flex-col' id="Sponsors">
         <div>
         <h1 className="text-[150px] text-yellow-300 font-bold mx-auto font-face-cm">SPONSORS</h1>
         </div>
