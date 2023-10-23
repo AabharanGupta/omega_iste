@@ -13,7 +13,7 @@ nav{
     font-weight: bold;
     margin: 1rem;
     text-decoration: none;
-    color:rgb(4, 4, 208);
+    color:teal;
 }
 ul{
     display: flex;
@@ -41,7 +41,7 @@ ul li{
     background-color: whitesmoke;
  }
  ul a:hover{
-    color: brown;
+    color: green;
  }
 
 @media (max-width: 480px) {
